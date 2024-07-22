@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DAWAMU SCHOOL BOOKSHOP - Home</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* Reset default styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #d62e2e;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-image: url('https://i.pinimg.com/474x/2b/f0/db/2bf0db1b58421ab2c7198ceae15f00c7.jpg');
+      background-size: cover;
+      background-position: center;
+    }
+
+    .container {
+      max-width: 800px;
+      width: 90%;
+      text-align: center;
+      padding: 20px;
+      border-radius: 10px;
+      background-color: rgba(0, 0, 0, 0.7);
+      backdrop-filter: blur(10px);
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    }
+
+    .logo {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      background-image: url('https://i.pinimg.com/474x/b7/03/a8/b703a870c09fe136b5d14fc8872dcd95.jpg');
+      background-size: cover;
+      display: inline-block;
+      margin: 20px;
+    }
+
+    .nav-links {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    .nav-links li {
+      margin: 0 15px;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 18px;
+      padding: 10px;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    .nav-links a:hover {
+      background-color: gold;
+    }
+
+    h1 {
+      font-size: 36px;
+      margin-top: 30px;
+    }
+
+    p {
+      font-size: 20px;
+      margin-top: 20px;
+    }
+ 
+.cart-container {
+  position: fixed; 
+  top: 10px;
+  right: 10px;
+  background-color: #fff; 
+  background-image: url('<svg data-icon-name="cart" data-style="line" icon_origin_id="25034" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id="cart" class="icon line" width="48" height="48"><line style="fill: none; stroke: rgb(0, 0, 0); stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.35;" y2="20.5" x2="11.05" y1="20.5" x1="10.95" id="primary-upstroke"></line><line style="fill: none; stroke: rgb(0, 0, 0); stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.35;" y2="20.5" x2="17.05" y1="20.5" x1="16.95" data-name="primary-upstroke" id="primary-upstroke-2"></line><path style="fill: none; stroke: rgb(0, 0, 0); stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;" d="M3,3H5.14a1,1,0,0,1,1,.85L6.62,7,8,16l11-1,2-8H6.62" id="primary"></path></svg>');
+  background-size: cover;
+  padding: 10px;
+  border: 2px solid #ddd; 
+  border-radius: 50%; 
+  cursor: pointer; 
+}
+
+
+.cart-container i {
+  font-size: 24px; 
+  color: #666; 
+}
+
+
+.cart-container .cart-count {
+  font-size: 18px; 
+  color: #666; 
+  margin-left: 5px; /
+}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <a href="#" class="logo"></a>
+    <h1>DAWAMU SCHOOL BOOKSHOP</h1>
+  
+    <ul class="nav-links">
+      <li><a href="home.html">Home</a></li>
+      <li><a href="shop.html">Shop</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="signup.html">Sign Up</a></li>
+    </ul>
+    <div class="cart-container">
+      <i class="fas fa-shopping-cart"></i>
+      <span class="cart-count">0</span>
+    </div>
+
+    <h1>Welcome to Dawamu School Bookshop</h1>
+    <p>Find a wide range of books, encyclopedias, and more.</p>
+  </div>
+</body>
+</html>
