@@ -10,7 +10,26 @@
       background-color: #f0f0f0;
       margin: 0;
       padding: 0;
+      background-image: url('https://i.pinimg.com/474x/af/3e/75/af3e75fbd20540d06bca1a3481a68719.jpg');
+      background-size: cover;
+      background-position: center;
     }
+    .go-back-btn {
+    background-color: #333; /* dark gray background */
+    color: #fff; /* white text */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+  }
+
+  .go-back-btn:hover {
+    background-color: #555; /* darker gray on hover */
+  }
+    
     
     /* Container Styles */
    .container {
@@ -91,7 +110,8 @@
   </style>
 </head>
 <body>
-  <button onclick="goBack()">Go Back</button>
+
+  <button onclick="goBack()" style="background-color: #333 ;">Go Back</button>
   <script>
     function goBack() {
       window.history.back();
@@ -113,10 +133,10 @@
     
     <div class="product-card">
       <div class="product-image">
-        <img src="https://i.pinimg.com/474x/a2/de/eb/a2deeb1a87aa2e01c25650352487e97c.jpg" alt="DIARY OF A WIMPY KID">
+        <img src="5ac271a4-3b5e-4b74-a34a-22077fefa926.jpeg" alt="DIARY OF A WIMPY KID">
       </div>
       <div class="product-details">
-        <h2 class="product-title">DIARY OF A WIMPY KID: THE UGLY TRUTH</h2>
+        <h2 class="product-title">HARRY POTTER AND THE HALF BLOOD PRINCE</h2>
         <h4 class="product-price">FREE</h4>
         <a href="crucicfixcart (2).html">
           <button class="add-to-cart-btn">Add to Cart</button>
@@ -127,10 +147,12 @@
     
     <div class="product-card">
       <div class="product-image">
-        <img src="product.jpg" alt="Product Image">
+        <img src="816966b4-b81e-40c1-9e24-c9dadca33709.jpeg" alt="Product Image">
       </div>
       <div class="product-details">
-        <h2 class="product-title">Awesome</h2>
+        <h2 class="product-title">HARRY POTTER AND THE CHAMBER OF SECRETS</h2>
         <h4 class="product-price">FREE</h4>
-        <li><a href="shop.html">ADD TO CART</a></li>
+        <a href="cart3.html">
+        <button class="add-to-cart-btn">Add to Cart</button>
+      </a>
         <button class="view-btn">View</button

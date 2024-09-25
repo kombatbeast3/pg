@@ -1,7 +1,25 @@
 <!DOCTYPE html>
 <html>
+    <style>
+        .go-back-button {
+            background-color: #4CAF50; 
+            color: #fff; 
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px; 
+            cursor: pointer; 
+        }
+        .go-back-button:hover {
+            background-color: #3e8e41; 
+        }
+    </style>
 <body>
-
+    <button onclick="goBack()">Go Back</button>
+    <script>
+      function goBack() {
+        window.history.back();
+      }
+    </script>
 <div class="container">
     
     <h2>Shopping Cart</h2>
@@ -11,7 +29,7 @@
             <img src="https://i.pinimg.com/236x/d0/47/87/d047874e9d7049a4d5bf96e96c5c8ed9.jpg" alt="crucifix">
             <div class="cart-item-info">
                 <h3>crucifix</h3>
-                <p class="cart-item-price">ksh110.00</p>
+          
             </div>
             <button onclick="removeFromCart(1)">Remove</button>
        </div>

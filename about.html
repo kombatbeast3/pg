@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Dawamu School Bookshop</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background: #0a74da;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin-bottom: 10px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 15px;
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+
+        nav ul li a:hover {
+            background-color: #007bb5;
+        }
+
+        .go-back-btn {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.3s ease;
+        
+        }
+
+        .go-back-btn:hover {
+            background-color: #444;
+        }
+
+        .go-back-btn:active {
+            background-color: #555;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+        }
+
+        section.about {
+            background: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        section.about h2 {
+            color: #0a74da;
+        }
+
+        section.about p {
+            margin-bottom: 20px;
+        }
+
+        .team {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .team-member {
+            background: #e0e0e0;
+            border-radius: 10px;
+            padding: 10px;
+            width: 200px;
+            text-align: center;
+        }
+
+        .team-member img {
+            width: 100%;
+            border-radius: 50%;
+        }
+
+        footer {
+            background: #0a74da;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Dawamu School Bookshop</h1>
+        <nav>
+            <button onclick="goBack()" class="go-back-btn">Go Back</button>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Books</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Welcome to Dawamu School Bookshop, your go-to place for all academic and leisure reading needs. Our mission is to provide a wide range of books to inspire and educate our students while fostering a love for reading.</p>
+            <p>Located within the vibrant community of Dawamu School, our online platform offers a browsing experience, making it easier for students and staff to find and purchase the books they need with just a few clicks.</p>
+            <div class="team">
+                <div class="team-member">
+                    <img src="team-member1.jpg" alt="">
+                    <h3>Patrick Gichui & Arthur Gichuki</h3>
+                    <p>Founder & Developer</p>
+                </div>
+                <div class="team-member">
+                    <img src="team-member2.jpg" alt="Librarian">
+                    <h3>Librarian</h3>
+                    <p>Librarian</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Dawamu School Bookshop. All rights reserved.</p>
+    </footer>
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</body>
+</html>
